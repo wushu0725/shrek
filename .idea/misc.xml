@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/shrek-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-service/shrek-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-service/shrek-codegen/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-common/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-auth/shrek-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-service/shrek-admin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/shrek-auth/shrek-auth-server-api/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

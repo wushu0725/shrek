@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shrek-admin" />
+        <module name="shrek-admin-api" />
+        <module name="shrek-auth-server" />
+        <module name="shrek-auth-server-api" />
+        <module name="shrek-codegen" />
+        <module name="shrek-common" />
+        <module name="shrek-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ace-auth" target="1.8" />
+      <module name="hello-spring-cloud-gateway" target="1.8" />
+      <module name="shrek-admin" target="1.8" />
+      <module name="shrek-admin-api" target="1.8" />
+      <module name="shrek-auth" target="1.8" />
+      <module name="shrek-auth-server" target="1.8" />
+      <module name="shrek-auth-server-api" target="1.8" />
+      <module name="shrek-codegen" target="1.8" />
+      <module name="shrek-common" target="1.8" />
+      <module name="shrek-dependencies" target="1.8" />
+      <module name="shrek-gateway" target="1.8" />
+      <module name="shrek11-dependencies" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

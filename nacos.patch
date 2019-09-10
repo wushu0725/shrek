@@ -1,0 +1,17 @@
+Index: shrek-dependencies/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- shrek-dependencies/pom.xml	(date 1566311091000)
++++ shrek-dependencies/pom.xml	(revision )
+@@ -27,6 +27,9 @@
+         <!-- Spring Settings -->
+         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+         <spring-cloud-alibaba.version>0.2.1.RELEASE</spring-cloud-alibaba.version>
++        <google-guava-version>22.0</google-guava-version>
++        <mybatis-generator-core-version>1.3.5</mybatis-generator-core-version>
++        <org.apache.velocity-verion>1.7</org.apache.velocity-verion>
+     </properties>
+ 
+     <dependencyManagement>

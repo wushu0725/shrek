@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>shrek.cn</groupId>
+        <artifactId>shrek-dependencies</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../shrek-dependencies/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>shrek-auth-server-api</artifactId>
+    <packaging>jar</packaging>
+
+    <name>shrek-auth-server-api</name>
+    <url>http://shrek11.cn</url>
+    <inceptionYear>2019-Now</inceptionYear>
+
+    <dependencies>
+        <!-- Spring Boot Begin -->
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-web</artifactId>-->
+        <!--</dependency>-->
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${com.alibaba.fastjson-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok-verion}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>shrek.cn</groupId>
+            <artifactId>shrek-auth-server</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

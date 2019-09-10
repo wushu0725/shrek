@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/shrek.iml" filepath="$PROJECT_DIR$/.idea/shrek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-service/shrek-admin/shrek-admin.iml" filepath="$PROJECT_DIR$/shrek-service/shrek-admin/shrek-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-service/shrek-admin-api/shrek-admin-api.iml" filepath="$PROJECT_DIR$/shrek-service/shrek-admin-api/shrek-admin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-auth/shrek-auth.iml" filepath="$PROJECT_DIR$/shrek-auth/shrek-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-auth/shrek-auth-server/shrek-auth-server.iml" filepath="$PROJECT_DIR$/shrek-auth/shrek-auth-server/shrek-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-auth/shrek-auth-server-api/shrek-auth-server-api.iml" filepath="$PROJECT_DIR$/shrek-auth/shrek-auth-server-api/shrek-auth-server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-service/shrek-codegen/shrek-codegen.iml" filepath="$PROJECT_DIR$/shrek-service/shrek-codegen/shrek-codegen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-common/shrek-common.iml" filepath="$PROJECT_DIR$/shrek-common/shrek-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-dependencies/shrek-dependencies.iml" filepath="$PROJECT_DIR$/shrek-dependencies/shrek-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shrek-gateway/shrek-gateway.iml" filepath="$PROJECT_DIR$/shrek-gateway/shrek-gateway.iml" />
+    </modules>
+  </component>
+</project>

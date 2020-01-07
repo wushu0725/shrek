@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: shrek-auth-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/nacos?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&
+    username: root
+    password: admin
+  redis:
+    host: 127.0.0.1
+    password:
+    port: 6379
+
+feign:
+  sentinel:
+    enabled: true
+
+server:
+  port: 8888
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

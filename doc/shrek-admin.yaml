@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: shrek-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 8720
+        dashboard: localhost:8080
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/nacos?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&
+    username: root
+    password: admin
+
+server:
+  port: 8123
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+feign:
+  sentinel:
+    enabled: true
+
+mybatis:
+   mapperLocations: classpath:/mapper/*.xml
+
+user:
+  name: shrek
